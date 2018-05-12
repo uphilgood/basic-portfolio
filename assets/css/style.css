@@ -1,8 +1,10 @@
 h1 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
   color: #4aaaa5;
 }
 
 h2 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
   color: #4aaaa5;
 }
 
@@ -12,6 +14,9 @@ h2 {
     background-color: #ffffff;
     height: 75px;
     color: white;
+    /* border-color: gray;
+    border-width: 5px;
+    border-style: solid; */
   }
 
   /* Navbar links */
@@ -38,9 +43,13 @@ h2 {
 
   #sidebar {
     float: left;
+    border-color: white;
+    border-width: 20px;
+    border-style: solid;
 }
 
 #box {
+  font-family: 'Georgia', Times, Times New Roman, serif;
   text-align: left;
   background-color: white;
   width: 960px;
@@ -48,6 +57,7 @@ h2 {
   margin: 100px 100px 20px 250px;
   color: black;
   padding: 25px 10px 30px 20px;
+
  
   
 }
@@ -174,9 +184,11 @@ h2 {
 
 body {
   background-image: url("../images/dark-grey-terrazzo.png");
+
 }
 
 .footer {
+  font-family: 'Georgia', Times, Times New Roman, serif;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -204,5 +216,11 @@ textarea {
 
 #font {
   color: #4aaaa5;
+  font-size: x-large;
+}
+
+#paragraph {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #444;
   font-size: x-large;
 }
